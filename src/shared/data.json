@@ -1,0 +1,42 @@
+ [
+     {
+            "name":"Pope Francis",
+            "bio": "Something",
+            "upVotes": 6,
+            "downVotes": 3,
+            "current":true,
+            "img": "pope.png"
+        },
+        {
+            "name":"Kanye West",
+            "bio": "Something about kan",
+            "upVotes": 3,
+            "downVotes":3,
+            "current":false,
+            "img": "kanye.png"
+        },
+        {
+            "name":"Mark Zuckerberg",
+            "bio": "Something about young Mark",
+            "upVotes": 2,
+            "downVotes": 4,
+            "current":false,
+            "img": "mark.png"
+        },
+        {
+            "name":"Cristina Fernandez de Kirchner",
+            "bio": "Something about kris",
+            "upVotes": 2,
+            "downVotes": 6,
+            "current":false,
+            "img": "kirchner.png"
+        },
+        {
+            "name":"Malala Yousafzai",
+            "bio": "Something about this lady",
+            "upVotes": 4,
+            "downVotes": 5,
+            "current":false,
+            "img": "malala.png"
+        }
+]
