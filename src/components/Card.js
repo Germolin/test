@@ -12,7 +12,7 @@ class Card extends React.Component {
                   <div 
                   style={{width: upVotesPercentagee +'%', background: '#14847f'}}
                   onClick={(e) => this.props.onVote(this.props.card,'upVotes')}> 
-                    <span className='vote'><img src="thumb.png"></img></span>
+                    <span className='vote'><img src="thumb.png" alt=''></img></span>
                     <span>
                         {`${upVotesPercentagee}%`}
                     </span>
@@ -24,7 +24,7 @@ class Card extends React.Component {
                     <span>
                         {`${100-upVotesPercentagee}%`}
                     </span>
-                    <span className='vote vote-down'><img src="thumb.png"></img></span>
+                    <span className='vote vote-down'><img src="thumb.png" alt=''></img></span>
                   </div>
               </div>
             </div>

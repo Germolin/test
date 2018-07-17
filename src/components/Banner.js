@@ -1,11 +1,10 @@
 import React from 'react';
 import Card from './Card';
+
 class Banner extends React.Component {
     render(){
-        const { card } = this.props;
-        console.log(card)
         return (
-            <div className='col-sm-12' style={{backgroundImage: 'url("pope.png")', height: '400px', backgroundSize: 'cover'}}>
+            <div className='col-sm-12' style={{backgroundImage: 'url("pope.png")', height: '400px', backgroundSize: 'cover', marginTop: '55px'}}>
                 {this.renderCards()}
             </div>
         )
@@ -13,7 +12,6 @@ class Banner extends React.Component {
     renderCards(){
         return (
             this.props.card.map(card => {
-                card.img = null;
             return(<Card card={card} onVote={this.props.onVote} key={card.name}/>)
         })
         )

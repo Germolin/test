@@ -5,6 +5,7 @@
     border: 0px;
     margin: 15px;
     display: inline-flex;
+    z-index: 2;
 }
 
 .card .votes-container {
