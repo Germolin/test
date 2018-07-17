@@ -10,6 +10,7 @@
 
 .card .votes-container {
     margin: 0px;
+    user-select: none;
 }
 
 .votes-container div {
